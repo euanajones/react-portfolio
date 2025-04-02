@@ -2,7 +2,7 @@ import InfoCard from "./InfoCard.jsx";
 
 function Projects(){
     return (
-        <section className="pr-10 pl-10 pt-10">
+        <section className="px-15 pt-10 w-full">
             <div className="flex items-center">
                 <h3 className="font-bold text-xl text-(--light-blurple) mr-4">Projects</h3>
                 <hr className="flex-1 border-(--light-blurple)" />

@@ -1,6 +1,6 @@
 function Contact(){
     return (
-        <section className="pr-10 pl-10 py-10">
+        <section className="px-15 py-10 w-full">
             <div className="flex items-center">
                 <h3 className="font-bold text-xl text-(--light-blurple) mr-4">Contact Me</h3>
                 <hr className="flex-1 border-(--light-blurple)" />
