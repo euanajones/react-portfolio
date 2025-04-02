@@ -1,6 +1,6 @@
 function Technologies() {
     return(
-        <section className="px-15 w-full">
+        <section className="p-15 w-full">
             <div className="flex items-center">
                 <h3 className="font-bold text-xl text-(--light-blurple) mr-4">Languages + Technologies</h3>
                 <hr className="flex-1 border-(--light-blurple)" />

@@ -7,10 +7,14 @@ import Technologies from "./Technologies.jsx";
 function Body() {
     return (
         <main className="w-full h-full bg-gradient-to-b from-(--blurple) from-10% to-(--dark-blurple) to-100% flex flex-col items-center">
-            <SplashBanner />
-            <Technologies />
-            <Experiences />
-            <Projects />
+            <section className="flex flex-col md:flex-row">
+                <SplashBanner />
+                <Technologies />
+            </section>
+            <section className="flex flex-col md:flex-row">
+                <Experiences />
+                <Projects />
+            </section>
             <Contact />
         </main>
     )

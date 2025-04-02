@@ -35,7 +35,7 @@ export default function SplashBanner() {
     }, [charIndex, isDeleting, index, titles]);
 
     return (
-        <section className="flex flex-col p-15 w-full">
+        <section className="flex flex-col p-15 w-full justify-between">
             <h3 className="font-mono text-xl text-(--light-blurple) text-center">Hello, my name is...</h3>
             <h1 className="text-5xl font-bold text-(--light-blurple) tracking-wide text-center">EUAN JONES</h1>
             <div className="font-mono text-2xl font-bold text-center bg-(--light-blurple) rounded-lg mt-2 mb-10">{text}</div>
