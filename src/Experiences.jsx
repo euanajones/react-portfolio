@@ -9,8 +9,13 @@ function Experiences(){
             </div>
             <p className="font-mono text-(--light-blurple) text-sm">My highlighted academic/personal experiences.</p>
             <InfoCard
+                title = "Hackathons Lead Organiser"
+                info1 = "06.25 - Current"
+                info2 = "Computer Science Society"
+            />
+            <InfoCard
                 title = "Competitions Officer"
-                info1 = "09.25 - Current"
+                info1 = "06.25 - Current"
                 info2 = "Sheffield Ethical Hackers Society"
             />
             <InfoCard

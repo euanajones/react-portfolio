@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 export default function SplashBanner() {
-    const titles = ["Computer Scientist", "Motorsport Fan", "Cub Scout Leader", "Ethical Hacker", "Competition Officer", "Ambition Scholar"];
+    const titles = ["Computer Scientist", "Motorsport Fan", "Cub Scout Leader", "Ethical Hacker",
+        "Competition Officer", "Ambition Scholar", "Hackathon Lead Organiser"];
     const [text, setText] = useState('');
     const [index, setIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
