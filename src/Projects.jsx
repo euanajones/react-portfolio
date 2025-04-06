@@ -14,6 +14,12 @@ function Projects(){
                 info2 = "Planned"
             />
             <InfoCard
+                title = "Project BeeBop"
+                info1 = "Java"
+                info2 = "In progress"
+                description = "Creating a 2D RPG game entirely with Java to improve overall Java knowledge"
+            />
+            <InfoCard
                 title = "F1 Data Analysis Course"
                 info1 = "Research"
                 info2 = "In progress"
